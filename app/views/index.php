@@ -23,14 +23,16 @@
 	<meta property="og:image" content=""/>
 	<!-- Angular -->
 	<script type="text/javascript" src="/components/angular.js"></script>
+	<script type="text/javascript" src="/components/angular-route.js"></script>
 	<!-- JS -->
 	<script type="text/javascript" src="/js/app.js"></script>
 	<script type="text/javascript" src="/js/controllers.js"></script>
 </head>
 <body>
+	<div ng-view></div>
 	<div ng-controller="LookbookController">
 		<ul>
-			<li ng-repeat="look in looks"><img ng-src="{{look.imageL}}" /></li>
+			<li ng-repeat="look in looks"><img ng-src="http://qa.rapsodia.com/ar/{{look.imageL}}"/></li>
 		</ul>
 	</div>
 </body>

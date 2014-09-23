@@ -15,8 +15,12 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
+Route::get('/home', function()
+{
+	return View::make('index');
+});
 
 Route::get('lookbooks', function()
 {
-	return View::make('index');
+	return Lookbook::all();
 });
