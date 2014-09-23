@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="rapsodiaApp">
 <head>
 	<title>Rapsodia Laravel</title>
 	<!-- Meta Configs -->
@@ -21,8 +21,17 @@
 	<meta property="og:site_name" content=""/>
 	<meta property="og:description" content=""/>
 	<meta property="og:image" content=""/>
+	<!-- Angular -->
+	<script type="text/javascript" src="/components/angular.js"></script>
+	<!-- JS -->
+	<script type="text/javascript" src="/js/app.js"></script>
+	<script type="text/javascript" src="/js/controllers.js"></script>
 </head>
 <body>
-	HOLA
+	<div ng-controller="LookbookController">
+		<ul>
+			<li ng-repeat="look in looks"><img ng-src="{{look.imageL}}" /></li>
+		</ul>
+	</div>
 </body>
 </html>
