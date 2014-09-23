@@ -30,6 +30,37 @@
 	<link rel="stylesheet" href="{{ URL::asset('components/sticky-footer.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('css/animations.css') }}">
+	<!-- JS -->
+	<script src="{{ URL::to('components/jquery.min.js') }}"></script>
+	<script src="{{ URL::to('components/jquery.easing.js') }}"></script>
+	<script src="{{ URL::to('components/owl.carousel.min.js') }}"></script>
+	<script src="{{ URL::to('components/detect-element-resize.js') }}"></script>
+	
+	<script src="{{ URL::to('components/angular-file-upload-shim.min.js') }}"></script>
+	<script src="{{ URL::to('components/angular.js') }}"></script>
+	<script src="{{ URL::to('components/angular-file-upload.min.js') }}"></script>
+	<script src="{{ URL::to('components/angular-animate.js') }}"></script>
+	<script src="{{ URL::to('components/angular-route.js') }}"></script>
+	<script src="{{ URL::to('components/angular-resource.js') }}"></script>
+	<script src="{{ URL::to('components/angular-translate.min.js') }}"></script>
+	<script src="{{ URL::to('components/angular-translate-loader-static-files.min.js') }}"></script>
+	<script src="{{ URL::to('components/angular-gridster.js') }}"></script>
+
+	<script src="{{ URL::to('components/ui-bootstrap.min.js') }}"></script>
+	<script src="{{ URL::to('components/ui-bootstrap-tpls.min.js') }}"></script>
+
+	<script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+	<script src="{{ URL::to('components/angular-google-maps.js') }}"></script>
+	
+	<script src="{{ URL::to('components/lodash.js') }}"></script>
+	<script src="{{ URL::to('components/lazy.js') }}"></script>
+
+	<script src="{{ URL::to('js/controllers.js') }}"></script>
+	<script src="{{ URL::to('js/app.js') }}"></script>
+	<script src="{{ URL::to('js/filters.js') }}"></script>
+	<script src="{{ URL::to('js/services.js') }}"></script>
+	<script src="{{ URL::to('js/animations.js') }}"></script>
+	<script src="{{ URL::to('js/jquery.scripts.js') }}"></script>
 </head>
 <body>
 
