@@ -10,17 +10,29 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
 Route::get('/', function()
 {
 	return View::make('index');
 });
-Route::get('/home', function()
+
+/*
+|--------------------------------------------------------------------------
+| Todas las rutas apuntan al index.
+|--------------------------------------------------------------------------
+*/
+/*
+|--------------------------------------------------------------------------
+| Todas las rutas tienen un equivalente en plural q devuelve data.
+|--------------------------------------------------------------------------
+*/
+
+// Lookbook
+Route::get('/lookbook', function()
 {
 	return View::make('index');
 });
-
 Route::get('lookbooks', function()
 {
 	return Lookbook::all();
 });
+

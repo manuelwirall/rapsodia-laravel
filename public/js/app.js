@@ -7,8 +7,8 @@ var app = angular.module('rapsodiaApp', ['rapsodiaControllers', 'ngRoute']);
 app.config(['$routeProvider', '$locationProvider',
   function($routeProvider, $locationProvider) {
     $routeProvider.
-    when('/home', {
-      templateUrl: 'partials/test.html'
+    when('/lookbook', {
+      templateUrl: 'partials/lookbook.html'
     }).
     otherwise({
       templateUrl: 'partials/home.html'
