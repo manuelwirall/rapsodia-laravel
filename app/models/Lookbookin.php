@@ -1,11 +1,10 @@
 <?php
 
-class Lookbook extends Eloquent {
+class Lookbookin extends Eloquent {
 	/**
 	 * The database table used by the model.
 	 *
 	 * @var string
 	 */
-	protected $table = 'lookbooks';
+	protected $table = 'lookbooksin';
 }
-

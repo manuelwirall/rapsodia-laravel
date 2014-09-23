@@ -35,4 +35,8 @@ Route::get('lookbooks', function()
 {
 	return Lookbook::all();
 });
+Route::get('lookbooksin', function()
+{
+	return Lookbookin::all();
+});
 
